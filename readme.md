@@ -13,8 +13,8 @@ git init
 
 **Проверка наличия SSH-ключа**
 ```
-cd ~  #переход в домашнюю директрию*
-ls -la .ssh/ #вывод списка имеющихся SSH-ключей*
+cd ~  #переход в домашнюю директрию
+ls -la .ssh/ #вывод списка имеющихся SSH-ключей
 ```
 
 **Генерация SSH-ключа**
@@ -50,7 +50,7 @@ touch <file-name.extantion>
 git add <file-name.extansion>
 git commit -m 'comment for commit'
 git push -u origin main #при первой синхронгизации хранилищ (если выдается ошибка, то следует заменить main на master)
-git push # при последующих синхронизациях
+git push #при последующих синхронизациях
 ```
 
 **Создание readme.md**
@@ -58,7 +58,6 @@ git push # при последующих синхронизациях
 cd /<directory-name>
 touch readme.md
 ```
----
-Данный файл следует писать согласно рекомендациям по Markdown, указанным в шпаргалке, приложенной ниже
+Данный файл следует писать согласно рекомендациям по Markdown, представленным по следующим ссылкам:
 [Шпаргалка по Markdown]https://gist.github.com/fomvasss/8dd8cd7f88c67a4e3727f9d39224a84c#alt-h1
-
+[Гайд по Markdown]https://www.markdownguide.org/cheat-sheet/
