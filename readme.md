@@ -134,7 +134,7 @@ refs/heads/main
 Чтобы "откатить" то, что было закоммичено, необходимо воспользоваться командой ```git reset --hard <commit hash>```.\
 
 Схема процесса "отката" с помощью команды ```git reset --hard <hash>```:
-![Схема "отката"](![](https://pictures.s3.yandex.net/resources/M2_T6_1686651127.png)
+![Схема "отката"](https://pictures.s3.yandex.net/resources/M2_T6_1686651127.png)
 
 *При удалении коммитов командой ```git reset --hard <hash>``` можно потерять важную информацию.*
 
