@@ -1,7 +1,20 @@
 # Шпаргалка по инициализации и синхронизации локального и удаленного хранилищ
 ---
-
-## Создание директории ##
+## Установка и настройка Git
+Проверить версию Git на ПК:
+```
+git version
+```
+В любой дирректории выполнить слудующие команды:
+```
+git config --global user.name "User Namovich"
+git config --global user.email username@yandex.ru
+```
+Глобальные настройки Git хранятся в:
+```
+cat ~/.gitconfig 
+```
+## Создание директории
 ```
 mkdir <directory-name>
 cd /<directory-name>
